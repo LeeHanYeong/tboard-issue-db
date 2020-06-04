@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "issue-db"
+version = "0.1.0"
+description = ""
+authors = ["이한영 <dev@lhy.kr>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "<3"
+django-extensions = "^2.2.9"
+django-debug-toolbar = "^2.2"
+mysqlclient = "^1.4.6"
+model_bakery = "^1.1.0"
+django-mptt = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+notebook = "^6.0.3"
+django-debug-toolbar = "^2.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
