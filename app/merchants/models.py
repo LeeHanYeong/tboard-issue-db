@@ -1,3 +1,9 @@
 from django.db import models
 
-# Create your models here.
+__all__ = (
+    'Merchant',
+)
+
+
+class Merchant(models.Model):
+    pass
