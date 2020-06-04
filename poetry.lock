@@ -127,6 +127,29 @@ Django = ">=1.11"
 django-js-asset = "*"
 
 [[package]]
+category = "main"
+description = "Web APIs for Django, made easy."
+name = "djangorestframework"
+optional = false
+python-versions = ">=3.5"
+version = "3.11.0"
+
+[package.dependencies]
+django = ">=1.11"
+
+[[package]]
+category = "main"
+description = "Recursive Serialization for Django REST framework"
+name = "djangorestframework-recursive"
+optional = false
+python-versions = "*"
+version = "0.1.2"
+
+[package.dependencies]
+Django = "*"
+djangorestframework = ">=3.0"
+
+[[package]]
 category = "dev"
 description = "Discover and load entry points from installed packages."
 name = "entrypoints"
@@ -618,7 +641,7 @@ python-versions = "*"
 version = "0.5.1"
 
 [metadata]
-content-hash = "ce81cb50f5433ccf6ecfc25250ad8cb0fa0a46b1fc0bc62d3d75800f40f75a71"
+content-hash = "1bfb21ff6398fa76fb29e411fea429539434fb31ca0c365a8de45d17d7a5a087"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -669,6 +692,14 @@ django-js-asset = [
 django-mptt = [
     {file = "django-mptt-0.11.0.tar.gz", hash = "sha256:dfdb3af75ad27cdd4458b0544ec8574174f2b90f99bc2cafab6a15b4bc1895a8"},
     {file = "django_mptt-0.11.0-py2.py3-none-any.whl", hash = "sha256:90eb236eb4f1a92124bd7c37852bbe09c0d21158477cc237556d59842a91c509"},
+]
+djangorestframework = [
+    {file = "djangorestframework-3.11.0-py3-none-any.whl", hash = "sha256:05809fc66e1c997fd9a32ea5730d9f4ba28b109b9da71fccfa5ff241201fd0a4"},
+    {file = "djangorestframework-3.11.0.tar.gz", hash = "sha256:e782087823c47a26826ee5b6fa0c542968219263fb3976ec3c31edab23a4001f"},
+]
+djangorestframework-recursive = [
+    {file = "djangorestframework-recursive-0.1.2.tar.gz", hash = "sha256:f8fc2d677ccb32fe53ec4153a45f66c822d0ce444824cba56edc76ca89b704ae"},
+    {file = "djangorestframework_recursive-0.1.2-py2.py3-none-any.whl", hash = "sha256:e4e51b26b7ee3c9f9b838885d638b91293e7c66e85b5955f278a6e10eb34ce7c"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},

@@ -12,6 +12,8 @@ django-debug-toolbar = "^2.2"
 mysqlclient = "^1.4.6"
 model_bakery = "^1.1.0"
 django-mptt = "^0.11.0"
+djangorestframework = "^3.11.0"
+djangorestframework-recursive = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
 notebook = "^6.0.3"
