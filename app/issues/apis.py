@@ -8,16 +8,5 @@ class IssueListAPIView(generics.ListAPIView):
 
     ).prefetch_related(
         'task_set',
-        'task_set__child_set',
-        'task_set__parent',
     )
     serializer_class = IssueSerializer
-
-    def get_queryset(self):
-        filter_dict = {}
-        status = self.request.query_params.get('status')
-        if status:
-            filter_dict['a']
-        return self.queryset.filter(
-
-        )
